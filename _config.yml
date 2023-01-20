@@ -9,7 +9,7 @@ name: Stefan Kokov
 author: Stefan Kokov
 
 # Short bio or description (displayed in the header)
-description: An elegant Jekyll theme
+description: AI Researcher | ML Engineer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/original-photo-crop.jpg
@@ -21,16 +21,17 @@ avatar: /images/original-photo-crop.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: amit.d.merchant@gmail.com
+  email: kokov94@gmail.com
   facebook:
   flickr:
-  github: amitmerchant1990/reverie
+  github: kokoff
   instagram:
-  linkedin: 
+  linkedin: stefan-kokov-b4784ba6/
   pinterest:
-  rss: rss
-  twitter: amit_merchant
-  stackoverflow: 
+  rss:
+  twitter:
+  stackoverflow:
+  researchgate: StefanKokov
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
@@ -48,14 +49,14 @@ google_analytics: UA-43339302-11
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.amitmerchant.com/reverie
-enforce_ssl: https://www.amitmerchant.com/reverie
+url: http://kokoff.github.io/
+enforce_ssl: https://kokoff.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/reverie"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!

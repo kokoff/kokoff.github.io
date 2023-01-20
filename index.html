@@ -2,48 +2,28 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1>{{ post.title }}</h1>
 
-        <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
-        </div>
-      </a>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+<div class="about">
+    <p align="justify">
+        Hi &#128075,
+        <br>
+        my name is Stefan and I am an AI researcher and ML engineer. My educational background is in Artificial
+        Intelligence, Computer Science and Mathematics and I hold a master’s degree from the University of York.
+    </p>
+    <p align="justify">
+        I have
+        four years of experience in research and development of AI systems for the insurance industry. Throughout this
+        time, I have worked on many projects in machine learning, computer vision and NLP and have gained valuable
+        insight in every step of the development cycle.
+    </p>
+    <p align="justify">
+        I am passionate about AI research, innovation and entrepreneurship. I strongly
+        believe that trustworthy, interpretable and data centric AI are the way forward to bringing innovation from
+        research labs into the industry.
+    </p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-
-  <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-  </div>
-  {% endif %}
+    <p align="justify">
+        Outside work, I enjoy travelling to the countryside and abroad, playing board games and working on my next DIY
+        home automation project.
+    </p>
 </div>
